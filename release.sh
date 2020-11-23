@@ -1,6 +1,6 @@
 #!/bin/sh
 
-g++ bindings.cpp -I../annoy/src \
+g++ bindings.cpp -I./annoy/src \
     -std=c++14 \
     -D_CRT_SECURE_NO_WARNINGS \
     -march=native \
